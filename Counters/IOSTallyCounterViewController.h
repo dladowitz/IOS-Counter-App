@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IOSViewController : UIViewController
+@interface IOSTallyCounterViewController : UIViewController
 
 @end

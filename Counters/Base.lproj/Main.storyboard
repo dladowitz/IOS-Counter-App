@@ -1,26 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Tally Counter View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="IOSViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="IOSTallyCounterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X5P-GS-40X"/>
+                        <viewControllerLayoutGuide type="bottom" id="sPY-J0-NhO"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpU-AQ-GUh" userLabel="counterValue">
+                                <rect key="frame" x="140" y="219" width="40" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdO-rD-fjD" userLabel="counterTitle">
+                                <rect key="frame" x="129" y="35" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKD-lU-HGD" userLabel="Decrement">
+                                <rect key="frame" x="20" y="430" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Decrement">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="decrementCounter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AfW-Di-NHc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSF-95-fnc" userLabel="Increment">
+                                <rect key="frame" x="231" y="430" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Increment">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="incrementCounter:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Elw-db-Ipf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.68118170701263736" green="1" blue="0.09663989732626499" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="sPY-J0-NhO" firstAttribute="top" secondItem="YSF-95-fnc" secondAttribute="bottom" constant="20" id="0zj-u2-zf8"/>
+                            <constraint firstAttribute="centerX" secondItem="QdO-rD-fjD" secondAttribute="centerX" id="1oD-Aa-6Sq"/>
+                            <constraint firstAttribute="centerX" secondItem="MpU-AQ-GUh" secondAttribute="centerX" id="C4R-N2-EXf"/>
+                            <constraint firstItem="HKD-lU-HGD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="CHj-er-m8A"/>
+                            <constraint firstItem="QdO-rD-fjD" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="35" id="QuT-Mk-pTZ"/>
+                            <constraint firstItem="sPY-J0-NhO" firstAttribute="top" secondItem="HKD-lU-HGD" secondAttribute="bottom" constant="20" id="UFT-7e-9gP"/>
+                            <constraint firstAttribute="centerY" secondItem="MpU-AQ-GUh" secondAttribute="centerY" id="qwF-cM-GjE"/>
+                            <constraint firstAttribute="trailing" secondItem="YSF-95-fnc" secondAttribute="trailing" constant="20" id="wrD-ef-IxV"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="A5I-E2-pYs" appends="YES" id="ZRN-dM-Fk8"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="counterTitle" destination="QdO-rD-fjD" id="KVY-bE-scf"/>
+                        <outlet property="counterValue" destination="MpU-AQ-GUh" id="ukK-GO-Lu6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="A5I-E2-pYs">
+                    <connections>
+                        <action selector="viewWasTapped:" destination="vXZ-lx-hvc" id="hgh-9a-qJD"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

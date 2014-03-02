@@ -14,13 +14,14 @@
 		AC3A7A4118C2AC24005521FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A4018C2AC24005521FA /* main.m */; };
 		AC3A7A4518C2AC24005521FA /* IOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A4418C2AC24005521FA /* IOSAppDelegate.m */; };
 		AC3A7A4818C2AC24005521FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A7A4618C2AC24005521FA /* Main.storyboard */; };
-		AC3A7A4B18C2AC24005521FA /* IOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A4A18C2AC24005521FA /* IOSViewController.m */; };
+		AC3A7A4B18C2AC24005521FA /* IOSTallyCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A4A18C2AC24005521FA /* IOSTallyCounterViewController.m */; };
 		AC3A7A4D18C2AC24005521FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3A7A4C18C2AC24005521FA /* Images.xcassets */; };
 		AC3A7A5418C2AC24005521FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3A7A5318C2AC24005521FA /* XCTest.framework */; };
 		AC3A7A5518C2AC24005521FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3A7A3418C2AC24005521FA /* Foundation.framework */; };
 		AC3A7A5618C2AC24005521FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3A7A3818C2AC24005521FA /* UIKit.framework */; };
 		AC3A7A5E18C2AC24005521FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC3A7A5C18C2AC24005521FA /* InfoPlist.strings */; };
 		AC3A7A6018C2AC24005521FA /* CountersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A5F18C2AC24005521FA /* CountersTests.m */; };
+		AC3A7A6B18C2ACFC005521FA /* IOSTallyCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A6A18C2ACFC005521FA /* IOSTallyCounter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		AC3A7A4318C2AC24005521FA /* IOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSAppDelegate.h; sourceTree = "<group>"; };
 		AC3A7A4418C2AC24005521FA /* IOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSAppDelegate.m; sourceTree = "<group>"; };
 		AC3A7A4718C2AC24005521FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC3A7A4918C2AC24005521FA /* IOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSViewController.h; sourceTree = "<group>"; };
-		AC3A7A4A18C2AC24005521FA /* IOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSViewController.m; sourceTree = "<group>"; };
+		AC3A7A4918C2AC24005521FA /* IOSTallyCounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTallyCounterViewController.h; sourceTree = "<group>"; };
+		AC3A7A4A18C2AC24005521FA /* IOSTallyCounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTallyCounterViewController.m; sourceTree = "<group>"; };
 		AC3A7A4C18C2AC24005521FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AC3A7A5218C2AC24005521FA /* CountersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3A7A5318C2AC24005521FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AC3A7A5B18C2AC24005521FA /* CountersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountersTests-Info.plist"; sourceTree = "<group>"; };
 		AC3A7A5D18C2AC24005521FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC3A7A5F18C2AC24005521FA /* CountersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountersTests.m; sourceTree = "<group>"; };
+		AC3A7A6918C2ACFC005521FA /* IOSTallyCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSTallyCounter.h; sourceTree = "<group>"; };
+		AC3A7A6A18C2ACFC005521FA /* IOSTallyCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSTallyCounter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +117,11 @@
 			children = (
 				AC3A7A4318C2AC24005521FA /* IOSAppDelegate.h */,
 				AC3A7A4418C2AC24005521FA /* IOSAppDelegate.m */,
+				AC3A7A4918C2AC24005521FA /* IOSTallyCounterViewController.h */,
+				AC3A7A4A18C2AC24005521FA /* IOSTallyCounterViewController.m */,
+				AC3A7A6918C2ACFC005521FA /* IOSTallyCounter.h */,
+				AC3A7A6A18C2ACFC005521FA /* IOSTallyCounter.m */,
 				AC3A7A4618C2AC24005521FA /* Main.storyboard */,
-				AC3A7A4918C2AC24005521FA /* IOSViewController.h */,
-				AC3A7A4A18C2AC24005521FA /* IOSViewController.m */,
 				AC3A7A4C18C2AC24005521FA /* Images.xcassets */,
 				AC3A7A3B18C2AC24005521FA /* Supporting Files */,
 			);
@@ -251,7 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3A7A4518C2AC24005521FA /* IOSAppDelegate.m in Sources */,
-				AC3A7A4B18C2AC24005521FA /* IOSViewController.m in Sources */,
+				AC3A7A6B18C2ACFC005521FA /* IOSTallyCounter.m in Sources */,
+				AC3A7A4B18C2AC24005521FA /* IOSTallyCounterViewController.m in Sources */,
 				AC3A7A4118C2AC24005521FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				AC3A7A6518C2AC24005521FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC3A7A6618C2AC24005521FA /* Build configuration list for PBXNativeTarget "CountersTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				AC3A7A6818C2AC24005521FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
