@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415482489.57168"
+            timestampString = "415503728.140713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
-            landmarkName = "@implementation IOSViewController"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "@implementation IOSTallyCounterViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,13 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415482489.57168"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "-incrementCounter:"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +40,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415483286.194095"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "-addObservers"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,13 +54,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415483523.701832"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,13 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486785.396022"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "-viewWillAppear:"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -90,13 +82,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486785.924196"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "-viewWillAppear:"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,13 +96,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486788.590967"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "-viewWasTapped:"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,13 +110,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486793.562566"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "-removeObservers"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -138,13 +124,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486795.543557"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "-setCounter:"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -154,13 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486797.512466"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -170,13 +152,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486800.866031"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "-initWithNibName:bundle:"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -186,13 +166,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Counters/IOSTallyCounterViewController.m"
-            timestampString = "415486802.799708"
+            timestampString = "415492546.742701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
-            landmarkName = "-dealloc"
-            landmarkType = "5">
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

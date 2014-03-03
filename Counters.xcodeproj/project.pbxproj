@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC219E5F18C3F0BF002B3334 /* done_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E5D18C3F0BF002B3334 /* done_button.png */; };
+		AC219E6018C3F0BF002B3334 /* done_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E5E18C3F0BF002B3334 /* done_button@2x.png */; };
+		AC219E6418C3F150002B3334 /* reset_counter.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E6218C3F150002B3334 /* reset_counter.png */; };
+		AC219E6518C3F150002B3334 /* reset_counter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E6318C3F150002B3334 /* reset_counter@2x.png */; };
+		AC219E6818C3F1EB002B3334 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E6618C3F1EB002B3334 /* Settings.png */; };
+		AC219E6918C3F1EB002B3334 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E6718C3F1EB002B3334 /* Settings@2x.png */; };
 		AC3A7A3518C2AC24005521FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3A7A3418C2AC24005521FA /* Foundation.framework */; };
 		AC3A7A3718C2AC24005521FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3A7A3618C2AC24005521FA /* CoreGraphics.framework */; };
 		AC3A7A3918C2AC24005521FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3A7A3818C2AC24005521FA /* UIKit.framework */; };
@@ -22,6 +28,11 @@
 		AC3A7A5E18C2AC24005521FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC3A7A5C18C2AC24005521FA /* InfoPlist.strings */; };
 		AC3A7A6018C2AC24005521FA /* CountersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A5F18C2AC24005521FA /* CountersTests.m */; };
 		AC3A7A6B18C2ACFC005521FA /* IOSTallyCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3A7A6A18C2ACFC005521FA /* IOSTallyCounter.m */; };
+		AC4796B918C409BD00CBEFC2 /* IOSTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4796B818C409BD00CBEFC2 /* IOSTextCell.m */; };
+		AC4796BC18C409E800CBEFC2 /* IOSNumericCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4796BB18C409E800CBEFC2 /* IOSNumericCell.m */; };
+		AC53A1FE18C3F9B500743F4E /* icon_tally_big.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53A1FC18C3F9B500743F4E /* icon_tally_big.png */; };
+		AC53A1FF18C3F9B500743F4E /* icon_tally_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC53A1FD18C3F9B500743F4E /* icon_tally_big@2x.png */; };
+		AC53A20518C3FDE500743F4E /* IOSTallyCounterSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53A20418C3FDE500743F4E /* IOSTallyCounterSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC219E5D18C3F0BF002B3334 /* done_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done_button.png; sourceTree = "<group>"; };
+		AC219E5E18C3F0BF002B3334 /* done_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done_button@2x.png"; sourceTree = "<group>"; };
+		AC219E6218C3F150002B3334 /* reset_counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_counter.png; sourceTree = "<group>"; };
+		AC219E6318C3F150002B3334 /* reset_counter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset_counter@2x.png"; sourceTree = "<group>"; };
+		AC219E6618C3F1EB002B3334 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		AC219E6718C3F1EB002B3334 /* Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings@2x.png"; sourceTree = "<group>"; };
 		AC3A7A3118C2AC24005521FA /* Counters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3A7A3418C2AC24005521FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC3A7A3618C2AC24005521FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +73,14 @@
 		AC3A7A5F18C2AC24005521FA /* CountersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountersTests.m; sourceTree = "<group>"; };
 		AC3A7A6918C2ACFC005521FA /* IOSTallyCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSTallyCounter.h; sourceTree = "<group>"; };
 		AC3A7A6A18C2ACFC005521FA /* IOSTallyCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSTallyCounter.m; sourceTree = "<group>"; };
+		AC4796B718C409BD00CBEFC2 /* IOSTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSTextCell.h; sourceTree = "<group>"; };
+		AC4796B818C409BD00CBEFC2 /* IOSTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSTextCell.m; sourceTree = "<group>"; };
+		AC4796BA18C409E800CBEFC2 /* IOSNumericCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSNumericCell.h; sourceTree = "<group>"; };
+		AC4796BB18C409E800CBEFC2 /* IOSNumericCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSNumericCell.m; sourceTree = "<group>"; };
+		AC53A1FC18C3F9B500743F4E /* icon_tally_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tally_big.png; sourceTree = "<group>"; };
+		AC53A1FD18C3F9B500743F4E /* icon_tally_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tally_big@2x.png"; sourceTree = "<group>"; };
+		AC53A20318C3FDE500743F4E /* IOSTallyCounterSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSTallyCounterSettingsViewController.h; sourceTree = "<group>"; };
+		AC53A20418C3FDE500743F4E /* IOSTallyCounterSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSTallyCounterSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC219E6118C3F0CA002B3334 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC53A1FC18C3F9B500743F4E /* icon_tally_big.png */,
+				AC53A1FD18C3F9B500743F4E /* icon_tally_big@2x.png */,
+				AC219E6618C3F1EB002B3334 /* Settings.png */,
+				AC219E6718C3F1EB002B3334 /* Settings@2x.png */,
+				AC219E6218C3F150002B3334 /* reset_counter.png */,
+				AC219E6318C3F150002B3334 /* reset_counter@2x.png */,
+				AC219E5E18C3F0BF002B3334 /* done_button@2x.png */,
+				AC219E5D18C3F0BF002B3334 /* done_button.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		AC3A7A2818C2AC24005521FA = {
 			isa = PBXGroup;
 			children = (
+				AC219E6118C3F0CA002B3334 /* images */,
 				AC3A7A3A18C2AC24005521FA /* Counters */,
 				AC3A7A5918C2AC24005521FA /* CountersTests */,
 				AC3A7A3318C2AC24005521FA /* Frameworks */,
@@ -121,6 +162,12 @@
 				AC3A7A4A18C2AC24005521FA /* IOSTallyCounterViewController.m */,
 				AC3A7A6918C2ACFC005521FA /* IOSTallyCounter.h */,
 				AC3A7A6A18C2ACFC005521FA /* IOSTallyCounter.m */,
+				AC4796B718C409BD00CBEFC2 /* IOSTextCell.h */,
+				AC4796B818C409BD00CBEFC2 /* IOSTextCell.m */,
+				AC4796BA18C409E800CBEFC2 /* IOSNumericCell.h */,
+				AC4796BB18C409E800CBEFC2 /* IOSNumericCell.m */,
+				AC53A20318C3FDE500743F4E /* IOSTallyCounterSettingsViewController.h */,
+				AC53A20418C3FDE500743F4E /* IOSTallyCounterSettingsViewController.m */,
 				AC3A7A4618C2AC24005521FA /* Main.storyboard */,
 				AC3A7A4C18C2AC24005521FA /* Images.xcassets */,
 				AC3A7A3B18C2AC24005521FA /* Supporting Files */,
@@ -234,9 +281,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC219E6818C3F1EB002B3334 /* Settings.png in Resources */,
+				AC219E6018C3F0BF002B3334 /* done_button@2x.png in Resources */,
 				AC3A7A4D18C2AC24005521FA /* Images.xcassets in Resources */,
+				AC219E6418C3F150002B3334 /* reset_counter.png in Resources */,
+				AC53A1FE18C3F9B500743F4E /* icon_tally_big.png in Resources */,
 				AC3A7A3F18C2AC24005521FA /* InfoPlist.strings in Resources */,
 				AC3A7A4818C2AC24005521FA /* Main.storyboard in Resources */,
+				AC219E6518C3F150002B3334 /* reset_counter@2x.png in Resources */,
+				AC219E6918C3F1EB002B3334 /* Settings@2x.png in Resources */,
+				AC219E5F18C3F0BF002B3334 /* done_button.png in Resources */,
+				AC53A1FF18C3F9B500743F4E /* icon_tally_big@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4796B918C409BD00CBEFC2 /* IOSTextCell.m in Sources */,
 				AC3A7A4518C2AC24005521FA /* IOSAppDelegate.m in Sources */,
+				AC4796BC18C409E800CBEFC2 /* IOSNumericCell.m in Sources */,
 				AC3A7A6B18C2ACFC005521FA /* IOSTallyCounter.m in Sources */,
 				AC3A7A4B18C2AC24005521FA /* IOSTallyCounterViewController.m in Sources */,
 				AC3A7A4118C2AC24005521FA /* main.m in Sources */,
+				AC53A20518C3FDE500743F4E /* IOSTallyCounterSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

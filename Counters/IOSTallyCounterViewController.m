@@ -8,6 +8,7 @@
 
 #import "IOSTallyCounterViewController.h"
 #import "IOSTallyCounter.h"
+#import "IOSTallyCounterSettingsViewController.h"
 
 @interface IOSTallyCounterViewController ()
 // *****************************************************
@@ -53,6 +54,12 @@ static NSString *kCounterValueKey = @"currentValue";
 
 - (IBAction)decrementCounter:(id)sender {
     [self.counter decrementValue];
+}
+
+- (IBAction)doneEditingSettings:(UIStoryboardSegue *)segue
+{
+    // TODO: Add code here when you want to grab values from
+    // the modal view controller.
 }
 
 - (void)updateCounterName
@@ -151,6 +158,13 @@ static NSString *kCounterValueKey = @"currentValue";
     _counter = nil;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"editTallyCounterSettings"]) {
+        IOSTallyCounterSettingsViewController *vc = [segue destinationViewController];
+        vc.counter = self.counter;
+    }
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
