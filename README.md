@@ -1,4 +1,4 @@
 IOS-Counter-App
 ===============
 
-An iOS Counter App  
+It lets you count stuff using your phone. 
