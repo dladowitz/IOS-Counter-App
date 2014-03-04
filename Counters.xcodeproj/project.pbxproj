@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC219E5F18C3F0BF002B3334 /* done_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E5D18C3F0BF002B3334 /* done_button.png */; };
-		AC219E6018C3F0BF002B3334 /* done_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E5E18C3F0BF002B3334 /* done_button@2x.png */; };
+		AC08B6CC18C57E8B00AC7D2C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC08B6C918C57E8B00AC7D2C /* Default@2x.png */; };
+		AC08B6CD18C57E8B00AC7D2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC08B6CA18C57E8B00AC7D2C /* Default-568h@2x.png */; };
+		AC08B6D018C5840A00AC7D2C /* counter-icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = AC08B6CE18C5840A00AC7D2C /* counter-icon-80.png */; };
+		AC08B6D118C5840A00AC7D2C /* counter-icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = AC08B6CF18C5840A00AC7D2C /* counter-icon-120.png */; };
+		AC08B6D318C5841A00AC7D2C /* counter-icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = AC08B6D218C5841A00AC7D2C /* counter-icon-58.png */; };
+		AC08B6D518C5858600AC7D2C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC08B6D418C5858600AC7D2C /* Default.png */; };
+		AC219E5F18C3F0BF002B3334 /* done_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E5D18C3F0BF002B3334 /* done_button@2x.png */; };
+		AC219E6018C3F0BF002B3334 /* done_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E5E18C3F0BF002B3334 /* done_button.png */; };
 		AC219E6418C3F150002B3334 /* reset_counter.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E6218C3F150002B3334 /* reset_counter.png */; };
 		AC219E6518C3F150002B3334 /* reset_counter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E6318C3F150002B3334 /* reset_counter@2x.png */; };
 		AC219E6818C3F1EB002B3334 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AC219E6618C3F1EB002B3334 /* Settings.png */; };
@@ -46,12 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC219E5D18C3F0BF002B3334 /* done_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done_button.png; sourceTree = "<group>"; };
-		AC219E5E18C3F0BF002B3334 /* done_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done_button@2x.png"; sourceTree = "<group>"; };
-		AC219E6218C3F150002B3334 /* reset_counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_counter.png; sourceTree = "<group>"; };
-		AC219E6318C3F150002B3334 /* reset_counter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset_counter@2x.png"; sourceTree = "<group>"; };
-		AC219E6618C3F1EB002B3334 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
-		AC219E6718C3F1EB002B3334 /* Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings@2x.png"; sourceTree = "<group>"; };
+		AC08B6C918C57E8B00AC7D2C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Counters/Images/Default@2x.png"; sourceTree = "<group>"; };
+		AC08B6CA18C57E8B00AC7D2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Counters/Images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC08B6CE18C5840A00AC7D2C /* counter-icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "counter-icon-80.png"; path = "Counters/Images/counter-icon-80.png"; sourceTree = "<group>"; };
+		AC08B6CF18C5840A00AC7D2C /* counter-icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "counter-icon-120.png"; path = "Counters/Images/counter-icon-120.png"; sourceTree = "<group>"; };
+		AC08B6D218C5841A00AC7D2C /* counter-icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "counter-icon-58.png"; path = "Counters/Images/counter-icon-58.png"; sourceTree = "<group>"; };
+		AC08B6D418C5858600AC7D2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Counters/Images/Default.png; sourceTree = "<group>"; };
+		AC219E5D18C3F0BF002B3334 /* done_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "done_button@2x.png"; path = "Counters/Images/done_button@2x.png"; sourceTree = "<group>"; };
+		AC219E5E18C3F0BF002B3334 /* done_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = done_button.png; path = Counters/Images/done_button.png; sourceTree = "<group>"; };
+		AC219E6218C3F150002B3334 /* reset_counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reset_counter.png; path = Counters/Images/reset_counter.png; sourceTree = "<group>"; };
+		AC219E6318C3F150002B3334 /* reset_counter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reset_counter@2x.png"; path = "Counters/Images/reset_counter@2x.png"; sourceTree = "<group>"; };
+		AC219E6618C3F1EB002B3334 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Counters/Images/Settings.png; sourceTree = "<group>"; };
+		AC219E6718C3F1EB002B3334 /* Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings@2x.png"; path = "Counters/Images/Settings@2x.png"; sourceTree = "<group>"; };
 		AC3A7A3118C2AC24005521FA /* Counters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3A7A3418C2AC24005521FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AC3A7A3618C2AC24005521FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,8 +89,8 @@
 		AC4796B818C409BD00CBEFC2 /* IOSTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSTextCell.m; sourceTree = "<group>"; };
 		AC4796BA18C409E800CBEFC2 /* IOSNumericCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSNumericCell.h; sourceTree = "<group>"; };
 		AC4796BB18C409E800CBEFC2 /* IOSNumericCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSNumericCell.m; sourceTree = "<group>"; };
-		AC53A1FC18C3F9B500743F4E /* icon_tally_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tally_big.png; sourceTree = "<group>"; };
-		AC53A1FD18C3F9B500743F4E /* icon_tally_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tally_big@2x.png"; sourceTree = "<group>"; };
+		AC53A1FC18C3F9B500743F4E /* icon_tally_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_tally_big.png; path = Counters/Images/icon_tally_big.png; sourceTree = "<group>"; };
+		AC53A1FD18C3F9B500743F4E /* icon_tally_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tally_big@2x.png"; path = "Counters/Images/icon_tally_big@2x.png"; sourceTree = "<group>"; };
 		AC53A20318C3FDE500743F4E /* IOSTallyCounterSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSTallyCounterSettingsViewController.h; sourceTree = "<group>"; };
 		AC53A20418C3FDE500743F4E /* IOSTallyCounterSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSTallyCounterSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,14 +122,20 @@
 		AC219E6118C3F0CA002B3334 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AC08B6C918C57E8B00AC7D2C /* Default@2x.png */,
+				AC08B6CA18C57E8B00AC7D2C /* Default-568h@2x.png */,
+				AC08B6D418C5858600AC7D2C /* Default.png */,
+				AC08B6D218C5841A00AC7D2C /* counter-icon-58.png */,
+				AC08B6CE18C5840A00AC7D2C /* counter-icon-80.png */,
+				AC08B6CF18C5840A00AC7D2C /* counter-icon-120.png */,
 				AC53A1FC18C3F9B500743F4E /* icon_tally_big.png */,
 				AC53A1FD18C3F9B500743F4E /* icon_tally_big@2x.png */,
 				AC219E6618C3F1EB002B3334 /* Settings.png */,
 				AC219E6718C3F1EB002B3334 /* Settings@2x.png */,
 				AC219E6218C3F150002B3334 /* reset_counter.png */,
 				AC219E6318C3F150002B3334 /* reset_counter@2x.png */,
-				AC219E5E18C3F0BF002B3334 /* done_button@2x.png */,
-				AC219E5D18C3F0BF002B3334 /* done_button.png */,
+				AC219E5E18C3F0BF002B3334 /* done_button.png */,
+				AC219E5D18C3F0BF002B3334 /* done_button@2x.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -282,15 +300,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC219E6818C3F1EB002B3334 /* Settings.png in Resources */,
-				AC219E6018C3F0BF002B3334 /* done_button@2x.png in Resources */,
+				AC219E6018C3F0BF002B3334 /* done_button.png in Resources */,
 				AC3A7A4D18C2AC24005521FA /* Images.xcassets in Resources */,
 				AC219E6418C3F150002B3334 /* reset_counter.png in Resources */,
+				AC08B6CC18C57E8B00AC7D2C /* Default@2x.png in Resources */,
+				AC08B6CD18C57E8B00AC7D2C /* Default-568h@2x.png in Resources */,
 				AC53A1FE18C3F9B500743F4E /* icon_tally_big.png in Resources */,
+				AC08B6D518C5858600AC7D2C /* Default.png in Resources */,
 				AC3A7A3F18C2AC24005521FA /* InfoPlist.strings in Resources */,
 				AC3A7A4818C2AC24005521FA /* Main.storyboard in Resources */,
 				AC219E6518C3F150002B3334 /* reset_counter@2x.png in Resources */,
+				AC08B6D018C5840A00AC7D2C /* counter-icon-80.png in Resources */,
 				AC219E6918C3F1EB002B3334 /* Settings@2x.png in Resources */,
-				AC219E5F18C3F0BF002B3334 /* done_button.png in Resources */,
+				AC08B6D118C5840A00AC7D2C /* counter-icon-120.png in Resources */,
+				AC219E5F18C3F0BF002B3334 /* done_button@2x.png in Resources */,
+				AC08B6D318C5841A00AC7D2C /* counter-icon-58.png in Resources */,
 				AC53A1FF18C3F9B500743F4E /* icon_tally_big@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
